@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    width: 100vw;
+    height: 100vh;
+}
 
 .main-container{
     display:flex;
@@ -22,29 +26,33 @@ h3 {
 
 }
 
-.box1, .box2, .box3, .box4 {
+.aqua, .purple, .blue, .green {
     width: 200px;
     height: 200px;
     border: .5rem solid black;
     border-radius: 2rem; 
 }
 
-.box1 {
+.aqua {
     background-color:aqua;
 }
 
-.box2 {
+.purple {
     background-color:blueviolet;
 }
 
-.box3 {
+.blue {
     background-color:rgb(10, 42, 148);
 }
 
-.box4 {
+.green {
     background-color:rgb(21, 96, 18);
 }
 
-.flash {
+.gameFlash {
     background-color: white;
+}
+
+.userFlash {
+    background-color: red;
 }
