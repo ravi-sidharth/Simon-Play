@@ -73,7 +73,8 @@ function btnPress() {
     userFlash(btn);
     let userColor = btn.getAttribute('id');
     userSeq.push(userColor);
-    checkBtn(userFlash.length -1);
+    checkBtn(userSeq.length -1);
+    console.log(userSeq.length-1)
 }
 
 let allBtns = document.querySelectorAll(' .btn')
